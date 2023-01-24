@@ -1,7 +1,6 @@
-/* on indique le liens pour la police*/
 body{
     font-family: 'Eczar', serif;
-    background-color: white;
+    background-color: rgb(209, 236, 244);
 }
 /*content and layout of my header*/
 header{
@@ -10,12 +9,11 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
-    /*position: absolute;*/
-   /* top : 0;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 0;
 }
 /*creation of a gradiant on the background image of header*/
 .backgroundlinear {
@@ -46,6 +44,8 @@ article{
 /*link color*/
 .contact a{
     color: white;
+    transform: scale(1);
+    transition: transform 0.5s ease;
 }
 /*layout of the bottom of my header*/
 .layoutsearchlogos{
@@ -88,10 +88,115 @@ article{
 main{
     height: auto;
     width: auto;
-    background-color: rgb(172, 224, 238);
+}
+menu{
+    display : flex;
 }
 
 ul{
     list-style: none;
-    color :rgb(4, 118, 150)
+    color :rgb(4, 118, 150);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(49, 93, 226, 0.323);
+    align-self: center;
+    border-radius: 24px;
+
+}
+a{
+    color: rgb(4, 118, 150);
+    font-size: 30px;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+li:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    transform-origin: left;
+    position: relative;
+}
+
+#experience{
+    color: rgb(4, 118, 150);
+}
+
+.explayout{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(208, 226, 49, 0.37);
+    align-self: center;
+    border-radius: 24px;
+}
+
+#competence{
+    color: rgb(4, 118, 150);
+}
+.complayout{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(49, 226, 61, 0.37);
+    align-self: center;
+    border-radius: 24px;
+
+}
+
+#projet{
+    color: rgb(4, 118, 150);
+
+}
+.projlayout{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(49, 93, 226, 0.323);
+    align-self: center;
+    border-radius: 24px;
+
+}
+
+
+.minproject{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(49, 93, 226, 0.323);
+    align-self: center;
+    border-radius: 24px;
+}
+
+.minproject img{
+    height: 200px;
+    width: 370px;
+
+}
+
+.minproject a{
+    display: flex;
 }
