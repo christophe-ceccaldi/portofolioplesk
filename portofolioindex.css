@@ -149,6 +149,7 @@ li:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 15px;
     width: 70%;
     height: auto;
     background-color: rgb(161 202 248);
@@ -159,6 +160,11 @@ li:hover{
 }
 .vidlayout{
     display: flex;
+    margin: 8px;
+
+}
+.vidlayout video{
+    margin: 10px;
 }
 
 #competence{
@@ -172,6 +178,7 @@ li:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 15px;
     width: 70%;
     height: auto;
     background-color: rgb(161 202 248);
@@ -197,6 +204,7 @@ li:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 15px;
     width: 70%;
     height: auto;
     background-color: rgb(161 202 248);
