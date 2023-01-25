@@ -1,6 +1,6 @@
 body{
     font-family: 'Eczar', serif;
-    background-color: rgb(209, 236, 244);
+    /*background-color: rgb(209, 236, 244);*/
 }
 /*content and layout of my header*/
 header{
@@ -86,9 +86,17 @@ article{
 }
 
 main{
+    background-image: url(whitewafeeffect.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
     height: auto;
     width: auto;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
+
 menu{
     display : flex;
 }
@@ -104,7 +112,6 @@ ul li{
     width: auto;
     height: auto;
     margin: 0 auto;
-    background-color: rgba(49, 93, 226, 0.323);
     align-self: center;
     border-radius: 24px;
 
@@ -124,22 +131,39 @@ li:hover{
 
 #experience{
     color: rgb(4, 118, 150);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+.mainlayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .explayout{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    text-align: center;
+    width: 70%;
     height: auto;
-    margin: 0 auto;
-    background-color: rgba(208, 226, 49, 0.37);
+    background-color: rgb(161 202 248);
     align-self: center;
     border-radius: 24px;
+    margin: 15px;
+    filter: drop-shadow(4px 6px 6px black);
+}
+.vidlayout{
+    display: flex;
 }
 
 #competence{
+    display: flex;
+    justify-content: center;
     color: rgb(4, 118, 150);
 }
 .complayout{
@@ -147,17 +171,24 @@ li:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    text-align: center;
+    width: 70%;
     height: auto;
-    margin: 0 auto;
-    background-color: rgba(49, 226, 61, 0.37);
+    background-color: rgb(161 202 248);
     align-self: center;
     border-radius: 24px;
+    margin: 15px;
+    filter: drop-shadow(4px 6px 6px black);
 
+}
+.complayout h3 h4 {
+    margin: 20px;
 }
 
 #projet{
     color: rgb(4, 118, 150);
+    display: flex;
+    justify-content: center;
 
 }
 .projlayout{
@@ -165,12 +196,14 @@ li:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    text-align: center;
+    width: 70%;
     height: auto;
-    margin: 0 auto;
-    background-color: rgba(49, 93, 226, 0.323);
+    background-color: rgb(161 202 248);
     align-self: center;
     border-radius: 24px;
+    margin: 15px;
+    filter: drop-shadow(4px 6px 6px black);
 
 }
 
@@ -186,9 +219,10 @@ li:hover{
     width: fit-content;
     height: auto;
     margin: 0 auto;
-    background-color: rgba(49, 93, 226, 0.323);
+    background-color: rgb(161 202 248);
     align-self: center;
     border-radius: 24px;
+    filter: drop-shadow(1px 4px 6px black);
 }
 
 .minproject img{
