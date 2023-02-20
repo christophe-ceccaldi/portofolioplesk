@@ -29,6 +29,7 @@ article{
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 20px;
 
 
 }
@@ -44,9 +45,9 @@ article{
 /*link color*/
 .contact a{
     color: white;
-    transform: scale(1);
-    transition: transform 0.5s ease;
+    font-size: 20px;
 }
+
 /*layout of the bottom of my header*/
 .layoutsearchlogos{
     display: flex;
@@ -84,6 +85,17 @@ article{
     border-radius: 24px;
     margin: 10px;
 }
+/*.cv a{
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(115 192 231 / 37%);
+    display: flex;
+    padding: 15px;
+    border-radius: 24px;
+    margin: 10px;
+
+}*/
 
 main{
     background-image: url(whitewafeeffect.jpg);
@@ -165,8 +177,10 @@ li:hover{
 }
 .vidlayout video{
     margin: 10px;
+    border-radius: 24px;
+    filter: drop-shadow(1px 4px 6px black);
 }
-.titlevidlayout{
+/*.titlevidlayout{
     display: grid;
     grid-template-columns: repeat(4, 4fr);
     grid-gap: 120px;
@@ -181,7 +195,7 @@ li:hover{
     align-self: center;
     border-radius: 24px;
     filter: drop-shadow(1px 4px 6px black);
-}
+}*/
 
 #competence{
     display: flex;
