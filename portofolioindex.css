@@ -85,17 +85,7 @@ article{
     border-radius: 24px;
     margin: 10px;
 }
-/*.cv a{
-    color: white;
-    width: fit-content;
-    height: fit-content;
-    background-color: rgb(115 192 231 / 37%);
-    display: flex;
-    padding: 15px;
-    border-radius: 24px;
-    margin: 10px;
 
-}*/
 
 main{
     background-image: url(whitewafeeffect.jpg);
@@ -180,22 +170,6 @@ li:hover{
     border-radius: 24px;
     filter: drop-shadow(1px 4px 6px black);
 }
-/*.titlevidlayout{
-    display: grid;
-    grid-template-columns: repeat(4, 4fr);
-    grid-gap: 120px;
-    grid-auto-rows: minmax(40px, auto);
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-    width: fit-content;
-    height: auto;
-    margin:  20px;
-    background-color: rgb(161 202 248);
-    align-self: center;
-    border-radius: 24px;
-    filter: drop-shadow(1px 4px 6px black);
-}*/
 
 #competence{
     display: flex;
